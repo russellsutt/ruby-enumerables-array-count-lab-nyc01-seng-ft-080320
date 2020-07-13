@@ -5,7 +5,7 @@ def count_strings(array)
   new_array = []
   index = 0
   
-  while array.count < count do aaray.each |string| 
+  while array.count < count do array.each |string| 
       if |string|.class == String
       new_array << |string|
       end
