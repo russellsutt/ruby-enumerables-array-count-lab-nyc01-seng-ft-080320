@@ -8,11 +8,10 @@ def count_strings(array)
   while array.count < index do |string| 
       if |string|.class == String
       new_array << |string|
-      count += 1
       end
-    end
-    index += 1
+    count += 1
   end
+  index += 1
   return new_array.count
 end
 
