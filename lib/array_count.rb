@@ -12,6 +12,7 @@ def count_strings(array)
     count += 1
   end
   index += 1
+end
   return new_array.count
 end
 
