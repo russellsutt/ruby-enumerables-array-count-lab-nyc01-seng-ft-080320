@@ -6,13 +6,14 @@ def count_strings(array)
   index = 0
   
   while array.count < index do |string| 
-    if |string|.class == String
+      if |string|.class == String
       new_array << |string|
       count += 1
+      end
     end
     index += 1
   end
-  return new_array
+  return new_array.count
 end
 
 def count_empty_strings(array)
