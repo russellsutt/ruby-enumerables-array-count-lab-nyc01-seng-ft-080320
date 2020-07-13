@@ -1,5 +1,18 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
+  
+  count = 0
+  new_array = []
+  index = 0
+  
+  while array.count < index do |string| 
+    if |string|.class == String
+      new_array << |string|
+      count += 1
+    end
+    index += 1
+  end
+  return new_array
 end
 
 def count_empty_strings(array)
