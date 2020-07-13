@@ -5,14 +5,13 @@ def count_strings(array)
   new_array = []
   index = 0
   
-  while array.count < index do |string| 
+  while array.count < count do |string| 
       if |string|.class == String
       new_array << |string|
       end
     count += 1
   end
   index += 1
-end
   return new_array.count
 end
 
